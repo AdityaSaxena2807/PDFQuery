@@ -138,7 +138,6 @@ function App() {
         </Container>
         <Box className="footer" mt={5} py={2} textAlign="center">
           <Typography variant="body2" color="textSecondary">
-            ©Arijeet Jash
           </Typography>
         </Box>
       </Box>
