@@ -31,7 +31,7 @@ load_dotenv()
 sessions = {}
 
 # Temporary file storage directory
-UPLOAD_FOLDER = os.path.join(tempfile.gettempdir(), 'chatdoc_uploads')
+UPLOAD_FOLDER = os.path.join(tempfile.gettempdir(), 'PDFQuery_uploads')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 def get_session_folder(session_id):

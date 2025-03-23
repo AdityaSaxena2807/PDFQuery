@@ -111,7 +111,7 @@ function App() {
         <Container maxWidth="lg" className="main-container">
           <Box mb={4}>
             <Typography variant="h1" align="center" gutterBottom>
-              ChatDoc
+              PDFQuery
             </Typography>
             <Typography variant="h6" align="center" color="textSecondary">
               Chat with your Documents

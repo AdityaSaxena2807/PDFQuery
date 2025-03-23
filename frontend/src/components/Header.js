@@ -12,7 +12,7 @@ const Header = () => {
           <MenuBookIcon sx={{ mr: 1, color: '#4CAF50' }} />
           <ChatIcon sx={{ mr: 1, color: '#2196F3' }} />
           <Typography variant="h6" component="div" sx={{ fontWeight: 'bold' }}>
-            ChatDoc
+          PDFQuery
           </Typography>
         </Box>
       </Toolbar>

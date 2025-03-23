@@ -4,7 +4,7 @@ const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
 // Helper to get session ID from storage or create a new one
 const getSessionId = () => {
-  return localStorage.getItem('chatdoc_session_id') || null;
+  return localStorage.getItem('PDFQuery_session_id') || null;
 };
 
 // Create axios instance with interceptors to handle session ID
@@ -36,7 +36,7 @@ export const uploadFiles = async (files) => {
 
     // Save session ID if provided
     if (response.data.session_id) {
-      localStorage.setItem('chatdoc_session_id', response.data.session_id);
+      localStorage.setItem('PDFQuery_session_id', response.data.session_id);
     }
 
     return response.data;
@@ -104,7 +104,7 @@ export const generatePDF = async () => {
 
 // Function to clear session
 export const clearSession = () => {
-  localStorage.removeItem('chatdoc_session_id');
+  localStorage.removeItem('PDFQuery_session_id');
 };
 
 // Function to check if a session exists
